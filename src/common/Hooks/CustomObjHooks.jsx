@@ -1,4 +1,4 @@
-import React from 'react'
+import {useState} from 'react'
 
 function CustomObjHooks(initialState) {
     const [value, setValue] = useState(initialState)
